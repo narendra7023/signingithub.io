@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding:0px;
+    margin: 0px;
+}
+.goodFont{
+    font-family:Roboto;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.shadow{
+    box-shadow: 1px 1px 1px black, -1px -1px -1px white;
+}
+#navbar{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    background-color: black;
+    
+}
+#logo>img{
+    height: 50px;
+    border-radius: 50%;
+    border: 2px dotted rgb(255, 255, 255);
+}
+#navList>ul{
+    display: flex;
+    list-style: none;
+    padding-right: 25px;
+}
+#navList>ul>li{
+    padding-left: 10px;
+}
+#navList>ul>li:nth-child(2){
+    padding-left: 50px;
+}
+#navList>ul>li>a{
+    text-decoration: none;
+    color: rgb(7, 235, 243);
+}
+#loginPage{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url(' https://www.soscanhelp.com/hs-fs/hubfs/Hacker%20Silhouette%20Edited.png?width=877&amp;name=Hacker%20Silhouette%20Edited.png') center center/cover;
+
+}
+
+/*#form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 2px;
+    margin: 2px;
+}
+form input{
+    width: 100%;
+}
+form input, form button{
+    border: 2px solid #4052ab;
+    padding: 2px 5px;
+    margin: 5px 2px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    outline: none;
+    cursor: pointer;
+}
+form button{
+    background-color: rgb(236, 207, 207);
+    padding: 8px 16px;
+}*/
+#loginPage h3{
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    top: 170px;
+    position: absolute;
+}
+footer h3{
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+}
+#welcomeDiv{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background: url("welcome.png") no-repeat  center/cover;
+}
+
+.welcomeMsg{
+    font-size: 2.5rem;
+    font-weight:900;
+    color: pink;
+    background-color: rgb(123, 123, 233);
+    border-radius: 20px;
+    padding: 4px 8px;
+}
+@media (max-width:768px) {
+    #loginPage{
+        height: 75vh;
+    }
+    .welcomeMsg{
+        font-size: 2.5rem;
+    }
+  
+    }
+ 
+
+
+ 
+/*body{
+    background-image: url( '/locking\ type.jfif');
+    position:  absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+     opacity: 0.9;
+     background-repeat: no-repeat;
+     background-size: cover;
+     top: 0px;
+     left: 0px;
+     
+
+    
+}*/
+.login-box{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    color: white;
+}
+
+
+ 
+.login-box h1{
+
+float: left;
+ font-size: 40px;
+ border-bottom: 6px solid green;
+ margin-bottom: 50px;
+ padding: 13px 0px;
+}
+
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 27px;
+    padding: 8px 0px ;
+    margin: 8px 0px;
+    border-bottom: 1px solid green;
+
+
+
+
+
+
+
+
+}
+
+
+.textbox input{
+    
+    padding: 8px 18px ;
+}
+.bttn {
+    margin: 6px 54px;
+    padding: 11px 29px;
+    background-color: black;
+    color: green;
+    /*border: 2px solid gray;*/
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+
